@@ -3,10 +3,18 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 nav{
     display: flex;
     height: 8vh;
-    background: #191818;
+    background: #191b1d;
     width: 100%;
     position: sticky;
 }
@@ -44,8 +52,8 @@ nav{
     height: 68vh;
     background-color: black;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("https://c.pxhere.com/photos/8a/dd/watch_wallet_glass_pen_phone-98958.jpg!d");;
+    background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -80,3 +88,67 @@ nav{
     font-weight: bold;
     color: white;
 }
+
+#services{
+    width: 70vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}#service-top{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 35%;
+ }
+ #service-bottom{
+     flex-direction: row;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     align-content: center;
+     height: 65%;
+ }
+ .service-divs{
+     width: 30%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+ }
+ .service-pic-outer{
+     height: 50%;
+     width: 50%;
+     background-color: #f1cf38;
+     border-radius: 50%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+ }
+ .service-pics{
+     height: 40%;
+    background: white;
+     color: white;
+     opacity: 0;
+ }
+ .service-h3{
+     font-size: 25px;
+     font-weight: bolder;
+ }
+ .service-p{
+     text-align: center;
+     line-height: 3vh;
+     font-size: 20px;
+     color: gray;
+ }
+
+ #portfolio{
+     height: 80vh;
+ }
