@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    height: 8vh;
+    background: black;
+    width: 100%;
+    position: sticky;
+}
+
+.header-section{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.buttons{
+    margin-left: 25vw;
+}
+
+.header-btn {
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: white;
+}
+.start {
+    color: #f9d44f;
+    margin-left: 10vw;
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
