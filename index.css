@@ -105,6 +105,7 @@ nav{
     align-content: center;
     align-items: center;
     height: 35%;
+    padding-top: 5vh;
  }
  #service-bottom{
      flex-direction: row;
@@ -123,32 +124,42 @@ nav{
      align-content: center;
      align-items: center;
  }
- /*.service-pic-outer{*/
- /*    height: 50%;*/
- /*    width: 50%;*/
- /*    background-color: #f1cf38;*/
- /*    border-radius: 50%;*/
- /*    display: flex;*/
- /*    justify-content: center;*/
- /*    align-items: center;*/
- /*    align-content: center;*/
- /*}*/
+ .service-pic-outer{
+     height: 35%;
+     width: 35%;
+     background-color: #f9d745;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     margin-bottom: 2vh;
+ }
  .service-pics{
-     height: 40%;
+     height: 65%;
      background: #0926eb;
-     /*color: #f1cf38;*/
      -webkit-filter: invert();
      filter: invert(100%);
  }
  .service-h3{
      font-size: 25px;
      font-weight: bolder;
+     margin-bottom: 3vh;
  }
  .service-p{
      text-align: center;
      line-height: 3vh;
      font-size: 20px;
      color: gray;
+ }
+ #service-h2{
+     font-family: 'Roboto', sans-serif;
+     font-size: 40px;
+ }
+ #service-head-p{
+     color: gray;
+     margin-top: 2vh;
+     font-size: 20px;
  }
 
  #portfolio{
